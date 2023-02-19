@@ -27,7 +27,10 @@ javaScript一直都很火热！各类框架一直更迭不停，从Jquery 到Rea
 * reactNative 编写移动端App
 * node 服务端RESTful API
 
-## 项目目录
+## 案例项目
+* [小船IM](https://www.boatim.top/) -- 一款双语即时通讯App
+
+## 目录结构
 ### App使用MVVM架构
 ![App目录结构](https://boatim.top/img/App.png)
 * assets用于存放资源文件例如（图片，声音，文件）
