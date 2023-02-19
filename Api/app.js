@@ -12,6 +12,12 @@ const users = require('./routes/users')
 // error handler
 onerror(app)
 
+// mongoDB
+const mongoose = require('mongoose')
+mongoose.connect("mongodb://localhost:27017/text",()=>console.log('数据库链接成功..'));
+
+
+
 // middlewares
 app.use(bodyparser({
   enableTypes:['json', 'form', 'text']
